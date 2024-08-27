@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8"/>
         <title>Capacitação HTML</title>
+        <link rel="stylesheet" href="index.css"/>
     </head>
     
-    <body>
+    <body class="imagem">
         <h1>Capacitação HTML</h1>
         <h2>Esta é uma página muito interessante, pois envolve a capacitação de outras pessoas!</h2>
         <h3>Mais um sub-título interessante!</h3>
@@ -23,12 +24,19 @@
             <li>Cacau em pó</li>
         </ul>
         <img style="height: 768px; width: 1000px;" src="https://d1uz88p17r663j.cloudfront.net/original/8fee36bf950557ff9f896b9104f36907_bolo-vulcao-brigadeiro-receitas-nestle.jpg" alt="bolo de chocolate"/>
-
-        <div style="background-color: blue;">
-            <h1>Estou dentro de uma div!</h1>
-            <span>Estou dentro de um span</span>
-            <span class="estiloSpan">Estou dentro de um span novamente!</span>
+        
+        <div id="divPrincipal">
+            <div class="div-azul">
+                <h1 class="h1-div">Estou dentro de uma div azul!</h1>
+            </div>
+            <div class="div-vermelha">
+                <h1 class="h1-div">Estou dentro de uma div vermelha!</h1>
+            </div>
+            <div class="div-amarela">
+                <h1 class="h1-div">Estou dentro de uma div amarela!</h1>
+            </div>
         </div>
+        
         
     </body>
 </html>
